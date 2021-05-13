@@ -1,4 +1,4 @@
-package io.javabrains.springsecurityjpa.models;
+package io.javabrains.springsecurityjpa.Entity;
 
 import javax.persistence.*;
 

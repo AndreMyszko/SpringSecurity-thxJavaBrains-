@@ -1,4 +1,4 @@
-package io.javabrains.springsecurityjpa;
+package io.javabrains.springsecurityjpa.Security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

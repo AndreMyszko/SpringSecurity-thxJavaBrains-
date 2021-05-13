@@ -1,13 +1,14 @@
-package io.javabrains.springsecurityjpa;
+package io.javabrains.springsecurityjpa.Service;
 
-import io.javabrains.springsecurityjpa.models.MyUserDetails;
-
-import io.javabrains.springsecurityjpa.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import io.javabrains.springsecurityjpa.Entity.MyUserDetails;
+import io.javabrains.springsecurityjpa.Entity.User;
+import io.javabrains.springsecurityjpa.Repository.UserRepository;
 
 import java.util.Optional;
 
